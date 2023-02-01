@@ -3,7 +3,7 @@ Object Detection using Keras, YOLO V3, Docker and Streamlit
 
 ### Run the prediction using one of following,
 
-#### 1. Perform detection using trained weights on image, set of images, video, or webcam
+#### 1. Perform detection using trained weights on image, set of images or video
     python predict.py -i /path/to/image/or/video
 
 It carries out detection on the image and write the image with detected bounding boxes to the default output folder.
