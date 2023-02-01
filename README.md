@@ -12,6 +12,6 @@ It carries out detection on the image and write the image with detected bounding
     streamlit run app.py server.port=8501
 then point to [localhost:8501](https://localhost:8501) for streamlit app
 #### 3. Run with Docker
-    docker build -t dannylee1020/object_detection_video .
-    docker run -p 8501:8501 dannylee1020/object_detection_video:latest
+    docker build -t apurva543/obj_detection:0.0 .
+    docker run -p 8501:8501 apurva543/obj_detection:0.0
 then point to [localhost:8501](https://localhost:8501) for streamlit app
