@@ -7,7 +7,7 @@ from predict_bb import make_prediction
 def run():
     DIR_PATH = '/app/' #docker
     #DIR_PATH = './'     #local testing
-    st.title('Object Detection in Video')
+    st.title('Object Detection in Images and Videos')
     option = st.radio('', ['Choose a test image', 'Upload your own image',
                             'Choose a test video', 'Upload your own video (.mp4 only)'])
     #st.sidebar.title('Parameters')
