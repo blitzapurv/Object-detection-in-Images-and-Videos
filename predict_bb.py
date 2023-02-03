@@ -38,7 +38,7 @@ def make_prediction(input_path):
     ###############################
     #   Load the model
     ###############################
-    #os.environ['CUDA_VISIBLE_DEVICES'] = config['train']['gpus']
+    #os.environ['CUDA_VISIBLE_DEVICES'] = 0
     infer_model = load_model("./weights/model.h5")
 
     ###############################
